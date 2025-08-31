@@ -1,0 +1,124 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Devansh - Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="logo" aria-hidden="true">永</span>
+        <span>Devansh V Singh</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#extras">Extras</a></li>
+          <li><a class="btn" href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container wrap">
+        <div>
+          <span class="kicker">Hello</span>
+          <h1>Hey, I'm <span class="gradient">Devansh V Singh</span>.</h1>
+          <p class="tight">I’m a first-year student learning HTML, CSS, Python, and C.</p>
+          <p class="tight">I enjoy building small projects and exploring web development.</p>
+          <div class="spacer"></div>
+          <div class="buttons">
+            <a class="btn" href="#projects">Browse Projects</a>
+          </div>
+        </div>
+        
+      </div>
+      <div class="blob" aria-hidden="true"></div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Projects</h2>
+          <span class="muted">Some of my Projects</span>          
+        </div>
+        <div class="grid cards">
+            <a class="card" href="https://drive.google.com/file/d/1FoaqeooNQKR3oZsQkPLH9hdXFa2ZZ1Kf/view?usp=sharing" target="_blank">
+              <h3>Opening Camera</h3>
+              <div class="thumb" aria-hidden="true"></div>
+              <p>Python Project</p>
+            </a>
+            <a class="card" href="https://drive.google.com/file/d/13AAniBhVw0jira3x6vgaCBt-saGY5XRL/view?usp=sharing" target="_blank">
+              <h3>Hand Tracking</h3>
+              <div class="thumb" aria-hidden="true"></div>
+              <p>Python Project</p>
+            </a>
+            <a class="card" href="https://drive.google.com/file/d/1Q580zv9vVviE-QTXGha-kJo9dOjzVeTa/view?usp=sharing" target="_blank">
+              <h3>Rock, Paper & Scissor</h3>
+              <div class="thumb" aria-hidden="true"></div>
+              <p>C Project</p>
+            </a>
+            <a class="card" href="https://drive.google.com/file/d/1el5B5nugBHI5xEnE9qfdHdcuoxWJ6BBm/view?usp=sharing" target="_blank">
+              <h3>To Do List App</h3>
+              <div class="thumb" aria-hidden="true"></div>
+              <p>C Project</p>
+            </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXTRAS -->
+    <section id="extras">
+      <div class="container">
+        <div class="section-header">
+          <h2>Extras</h2>
+          <span class="muted">Video Editing</span>
+        </div>
+        <div class="list-links">
+          <a href="https://www.instagram.com/klaxoz/" target="_blank" rel="noopener">Instagram (Editing Account)</a>
+          <div class="grid card">
+            <p>Some of my favorites</p>
+            <a href="https://www.instagram.com/p/C3p1NlmKFor/" target="_blank" rel="noopener">FASHION</a>
+            <a href="https://www.instagram.com/p/DBv0fVUq3ME/" target="_blank" rel="noopener">Porsche</a>
+            <a href="https://www.instagram.com/p/C0rCZLWqrPg/" target="_blank" rel="noopener">Initial D</a>
+            <a href="https://www.instagram.com/p/DAFnH93KNpt/" target="_blank" rel="noopener">Vinland Saga</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact Me</h2>
+          <span class="muted">Say hi 👋</span>
+        </div>
+        <p>Mail: devanshvallabhsingh7@gmail.com</p>
+        <p>Instagram: <a href="https://www.instagram.com/devanshvsingh/" target="_blank">@devanshvsingh</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container center">
+      <p>© <span id="y"></span> Devansh V Singh Portfolio. All Rights Reserved</p>
+      <p><a class="btn" href="#top">Back to top ↑</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+    document.documentElement.style.scrollBehavior = 'smooth';
+  </script>
+</body>
+</html>
